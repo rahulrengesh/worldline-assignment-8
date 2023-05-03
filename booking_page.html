@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bp.css">
+    <title>Booking Page</title>
+</head>
+
+<body class="main_bg">
+
+    <nav class="navbar">
+        <h2 class="logo">BOOKIFY</h2>
+        <ul class="list">
+            <li><a  href="/index.html">Home</a></li>
+            <li><a class="active" href="/booking_page.html">Booking Page</a></li>
+            <li><a  href="/nowshowing.html">Now showing</a></li>
+            <li><a href="#">Sign Up</a></li>
+        </ul>
+    </nav>
+    <div class="form">
+        <div class="form-text">
+            <h1><span><img src="art-1.png" alt=""></span>Book Now <span><img src="art-1.png" alt=""></span></h1>
+            <p>Select the movie which you want to watch</p>
+        </div>
+        <div class="main-form">
+            <form >
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>Select the movie</span>
+                    <select name="people" id="people" required>
+                        <option value=""><---Movie---></option>
+                        <option value="1">Vikram</option>
+                        <option value="2">Ponniyin Selvan 2</option>
+                        <option value="3">Patthan</option>
+                        <option value="4">K.G.F 2</option>
+                        <option value="4">RRR</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                
+                <div>
+                    <!-- <---this is the select option--->
+                    <span>How many people ?</span>
+                    <select name="people" id="people" required>
+                        <option value=""><---People---></option>
+                        <option value="1">1 People</option>
+                        <option value="2">2 Peoples</option>
+                        <option value="3">3 Peoples</option>
+                        <option value="4">4 Peoples</option>
+                    </select>
+                    <!-- <---this is the select option--->
+                </div>
+                <div>
+                    <span>What time ?</span>
+                    <select name="people" id="people" required>
+                        <option value=""><---Show---></option>
+                        <option value="1">11:30 PM</option>
+                        <option value="2">2:00 PM</option>
+                        <option value="3">6:30 PM</option>
+                       
+                    </select>
+                </div>
+                <div>
+                    <span>What is the date ?</span>
+                    <input type="date" name="date" id="date" placeholder="date" required>
+                </div>
+                
+                <div id="submit">
+                    <button><a href="/available.html">CHECK FOR AVAILABILITY</a></button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url(/background.jpg);
+}
+h1{
+    position: relative;
+    left: 540px;
+    top: 300px;
+    color: beige;
+}
