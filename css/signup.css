@@ -14,7 +14,7 @@ height: 100vh;
 background-color: #15172b;
 border-radius: 20px;
 box-sizing: border-box;
-height: 720px;
+height: 800px;
 padding: 20px;
 width: 320px;
 }
@@ -134,7 +134,27 @@ width: 100%;
     margin-top: 38px;
     outline: 0;
     text-align: center;
-    width: 100%;  
+    width: 100%;
+    position: relative;
+    left: 5px; 
+    bottom: 20px; 
+}
+.back1{
+    background-color: rgb(221, 0, 0);
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    left: 5px; 
+    bottom: 20px; 
 }
 .submit:active {
 background-color: #06b;
