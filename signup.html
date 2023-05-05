@@ -39,9 +39,9 @@
                 <label for="dob" class="placeholder">DOB *</label>
             </div>
             <button type="text" class="submit" onclick="return validateForm()">submit</button>
-            
+            <button type="text" class="back" id="back" style="display: block; width: 270px;"><a href="/index.html" style="color: aliceblue; text-decoration: none; ">CANCEL</a></button>
           </div>
-          <button type="text" class="back" id="back" style="display: none; width: 400px;"><a href="/index.html" style="color: aliceblue; text-decoration: none; ">GO BACK</a></button>
+          <button type="text" class="back1" id="back1" style="display: none; width: 270px;"><a href="/index.html" style="color: aliceblue; text-decoration: none; ">GO BACK</a></button>
     </body>
     <script>
         function validateForm() {
@@ -94,6 +94,7 @@
             alert("Welcome "+username+" Sign-up success");
             
             document.getElementById("back").style.display = "block";
+            document.getElementById("back1").style.display = "block";
             document.getElementById("form").style.display = "none";
           }
           return true;
